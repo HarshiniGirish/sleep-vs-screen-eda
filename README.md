@@ -20,7 +20,7 @@ This project investigates **how daily screen behaviors and sleep relate to self-
 - **Classification side-task (bonus):** Predict **high stress (≥8)** with a standard-scaled **Logistic Regression** (main effects + screen×sleep interaction).  
   - **ROC-AUC ≈ 0.936**, **PR-AUC ≈ 0.855**, **Brier ≈ 0.105** (good discrimination with reasonable calibration).
 
-### Key Findings (brief)
+### Key Findings 
 - **Sleep ↔ Mood:** Strong positive, **nonlinear** association; benefits rise to **~7–8 hours** then plateau.  
 - **Screen/TikTok ↔ Mood:** Negative associations; TikTok time adds a distinct negative effect beyond total screen time; platform count adds little.  
 - **Nonlinearity matters:** Splines improved fit vs. linear models (CV R² ~0.63 vs. ~0.55).  
