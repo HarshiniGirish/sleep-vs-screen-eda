@@ -2,7 +2,7 @@
 
 This project investigates **how daily screen behaviors and sleep relate to self-reported mood (1–10)**, using a scale-aware, nonlinearity-aware analytics workflow. We analyze a daily, cross-sectional dataset with the following variables: `screen_time_hours`, `hours_on_TikTok`, `sleep_hours`, `social_media_platforms_used`, `stress_level (1–10 higher=worse)`, and `mood_score (1–10 higher=better)`.
 
-### Methodology (end-to-end)
+### Methodology 
 - **Data hygiene:** Schema standardization, type coercion (hours → float, scales → int), range/logic checks (0–24h; 1–10 scales; `TikTok ≤ total screen`), outlier flags (pre-registered), and a missingness audit (no meaningful missingness; MICE pipeline ready).
 - **EDA (scale-aware):** Pearson *and* Spearman correlations; binned means; linear vs. spline nonlinearity checks.
 - **Modeling plan (overfitting-aware):** Pre-registered hierarchy  
